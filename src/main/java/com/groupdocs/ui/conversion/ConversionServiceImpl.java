@@ -155,7 +155,7 @@ public class ConversionServiceImpl implements ConversionService {
      */
     @Override
     public void convert(ConversionPostedData postedData) {
-        String sourceType = parseFileExtension(postedData.getGuid());
+        String sourceType = FilenameUtils.getExtension(postedData.getGuid());
         String destinationType = postedData.getDestinationType();
         String destinationFile = FilenameUtils.removeExtension(FilenameUtils.getName(postedData.getGuid())) + "." + destinationType;
         String resultFileName = FilenameUtils.concat(conversionConfiguration.getResultDirectory(),destinationFile);

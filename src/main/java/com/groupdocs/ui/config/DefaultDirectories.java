@@ -14,7 +14,6 @@ public class DefaultDirectories {
     public static final String LIC = ".lic";
     public static final String LICENSES = "Licenses";
     public static final String DOCUMENT_SAMPLES = "DocumentSamples";
-    public static final String CONVERSION = "Conversion";
 
     public static String defaultLicenseDirectory() {
         Path defaultLicFolder = FileSystems.getDefault().getPath(LICENSES).toAbsolutePath();
@@ -30,7 +29,7 @@ public class DefaultDirectories {
         return "";
     }
 
-    public static String defaultConversionDirectory() { return getDefaultFilesDir(CONVERSION); }
+    public static String defaultConversionDirectory() { return getDefaultFilesDir(""); }
 
 
     public static String getDefaultFilesDir(String folder) {

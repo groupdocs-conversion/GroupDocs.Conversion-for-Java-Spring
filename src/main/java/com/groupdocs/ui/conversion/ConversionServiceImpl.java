@@ -195,7 +195,7 @@ public class ConversionServiceImpl implements ConversionService {
         String ext = parseFileExtension(fileDescription.getGuid());
         if(ext != null && !ext.isEmpty()){
             fileDescription.conversionTypes = new ArrayList<>();
-            List<String> availableTypes = getPossibleConversionTypes(handler, ext);
+            String[] availableTypes = new DestinationTypesFilter().getPosibleConversions(ext);
             for(String type : availableTypes){
                 fileDescription.conversionTypes.add(type);
             }
@@ -203,28 +203,4 @@ public class ConversionServiceImpl implements ConversionService {
         return fileDescription;
     }
 
-    private List<String> getPossibleConversionTypes(ConversionHandler handler, String sourceType){
-        Dictionary<String, SaveOptions> dict = handler.getSaveOptions(sourceType);
-        List<String> keys = Collections.list(dict.keys());
-        Map<String, SaveOptions> availableOptions = keys.stream().collect(Collectors.toMap(Function.identity(), dict::get));
-
-        SaveOptions sourceOptions = availableOptions.get(sourceType);
-
-        HashMap<Class<?>, Class<?>> impossibleConversions = new HashMap<>();
-        impossibleConversions.put(WordsSaveOptions.class, CellsSaveOptions.class);
-        impossibleConversions.put(PdfSaveOptions.class, CellsSaveOptions.class);
-        impossibleConversions.put(ImageSaveOptions.class, CellsSaveOptions.class);
-
-        List<String> availableConversionTypes = availableOptions
-                .entrySet()
-                .stream()
-                .filter(entry ->
-                        !impossibleConversions.containsKey(sourceOptions.getClass())
-                    ||
-                        !impossibleConversions.get(sourceOptions.getClass()).equals(entry.getValue().getClass()))
-                .map(entry -> entry.getKey())
-                .collect(Collectors.toList());
-
-        return availableConversionTypes;
-    }
 }

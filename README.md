@@ -3,7 +3,7 @@ GroupDocs.Conversion for Java Spring UI Example
 ###### version 0.0.1
 
 [![Build Status](https://travis-ci.org/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Spring.svg?branch=master)](https://travis-ci.org/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Spring)
-[![Maintainability](https://api.codeclimate.com/v1/badges/f945b8bc09a5ff2e8a2d/maintainability)](https://codeclimate.com/github/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Spring/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d12e227136c312bb3dad/maintainability)](https://codeclimate.com/github/groupdocs-conversion/GroupDocs.Conversion-for-Java-Dropwizard/maintainability)
 [![GitHub license](https://img.shields.io/github/license/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Spring.svg)](https://github.com/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Spring/blob/master/LICENSE)
 
 ## System Requirements

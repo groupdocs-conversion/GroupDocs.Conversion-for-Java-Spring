@@ -1,0 +1,27 @@
+{
+  "name": "groupdocs.conversion-for-java-spring",
+  "version": "1.0.0",
+  "description": "New GroupDocs.Conversion for Java Spring UI Example ###### version 0.0.1",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring/issues"
+  },
+  "homepage": "https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring#readme",
+  "dependencies": {
+    "@groupdocs.examples.jquery/common": "^0.16.0",
+    "@groupdocs.examples.jquery/comparison": "^0.16.0",
+    "@groupdocs.examples.jquery/viewer": "^0.16.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

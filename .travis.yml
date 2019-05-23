@@ -6,7 +6,7 @@ jdk:
 - openjdk8
 #- oraclejdk11
 - openjdk10
-- openjdk11
+#- openjdk11
 services:
   - docker
 jobs:
@@ -28,7 +28,7 @@ jobs:
     if: type = push AND branch = master AND commit_message =~ /^Travis bot released/
     install: skip
     jdk: oraclejdk8
-    script: mvn -B clean package && mkdir -p target/release/DocumentSamples && mkdir -p target/release/Licenses && cp target/spring-*.jar target/release && cp configuration.yml target/release && cd target && tar -zcvf release.tar.gz release && cd .. && echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin && docker build -t groupdocs/conversion . && docker push groupdocs/conversion
+    script: mvn -B clean package && mkdir -p target/release/DocumentSamples && mkdir -p target/release/Licenses && cp target/conversion-spring-*.jar target/release && cp configuration.yml target/release && cd target && tar -zcvf release.tar.gz release && cd .. && echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin && docker build -t groupdocs/conversion . && docker push groupdocs/conversion
     deploy:
       provider: releases
       overwrite: true

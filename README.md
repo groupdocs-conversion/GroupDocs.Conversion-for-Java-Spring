@@ -87,7 +87,7 @@ Download [latest release](https://github.com/groupdocs-conversion/GroupDocs.Conv
 curl -J -L -o release.tar.gz https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring/releases/download/0.0.1/release.tar.gz
 tar -xvzf release.tar.gz
 cd release
-java -jar Conversion-spring-0.0.1.jar configuration.yaml
+java -jar conversion-spring-0.0.1.jar configuration.yaml
 ## Open http://localhost:8080/Conversion/ in your favorite browser.
 ```
 

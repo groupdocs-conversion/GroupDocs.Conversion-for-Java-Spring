@@ -1,7 +1,7 @@
 ![Convert pdf to doc or doc to pdf](https://raw.githubusercontent.com/groupdocs-conversion/groupdocs-conversion.github.io/master/resources/image/banner.png "GroupDocs.Conversion")
 # GroupDocs.Conversion for Java Spring Example
 GroupDocs.Conversion for Java Spring UI Example
-###### version 0.0.1
+###### version 0.0.0
 
 [![Build Status](https://travis-ci.org/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Spring.svg?branch=master)](https://travis-ci.org/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6db148bfbdc7912b07e6/maintainability)](https://codeclimate.com/github/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring/maintainability)
@@ -84,10 +84,10 @@ Download [latest release](https://github.com/groupdocs-conversion/GroupDocs.Conv
 **Note**: This method is **recommended** for running this sample behind firewall.
 
 ```bash
-curl -J -L -o release.tar.gz https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring/releases/download/0.0.1/release.tar.gz
+curl -J -L -o release.tar.gz https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring/releases/download/0.0.0/release.tar.gz
 tar -xvzf release.tar.gz
 cd release
-java -jar conversion-spring-0.0.1.jar configuration.yaml
+java -jar conversion-spring-0.0.0.jar configuration.yaml
 ## Open http://localhost:8080/Conversion/ in your favorite browser.
 ```
 

@@ -62,6 +62,18 @@
                                                 implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                             <mainClass>com.groupdocs.ui.Application</mainClass>
                                         </transformer>
+                                        <transformer
+                                                implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                            <manifestEntries>
+                                                <Specification-Title>GroupDocs.Total for Java Spring</Specification-Title>
+                                                <Specification-Version>${project.version}</Specification-Version>
+                                                <Specification-Vendor>GroupDocs</Specification-Vendor>
+                                                <Implementation-Title>GroupDocs.Total for Java Spring</Implementation-Title>
+                                                <Implementation-Version>${project.version}</Implementation-Version>
+                                                <Implementation-Vendor>GroupDocs</Implementation-Vendor>
+                                                <Extension-Name>com.sun.media.imageio</Extension-Name>
+                                            </manifestEntries>
+                                        </transformer>
                                     </transformers>
                                 </configuration>
                             </execution>

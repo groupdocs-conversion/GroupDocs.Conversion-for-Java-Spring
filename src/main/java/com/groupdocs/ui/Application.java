@@ -16,12 +16,17 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+import javax.imageio.ImageIO;
 import java.io.File;
 import java.net.MalformedURLException;
 
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
 
+    static {
+        ImageIO.scanForPlugins();
+    }
+    
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
 
     private static final String DEFAULT_CONFIGURATION_FILE = "defaultConfiguration.yml";

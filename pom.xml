@@ -6,7 +6,7 @@
 
     <groupId>com.groupdocs.ui</groupId>
     <artifactId>conversion-spring</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <packaging>${packaging.type}</packaging>
 
     <name>GroupDocs.Conversion for Java Spring Sample</name>

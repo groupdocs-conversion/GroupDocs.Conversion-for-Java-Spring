@@ -35,6 +35,12 @@ public class ConversionController {
     @Autowired
     public ConversionService conversionService;
 
+    @RequestMapping(method = RequestMethod.GET, value = "/loadConfig", produces = APPLICATION_JSON_VALUE)
+    @ResponseBody
+    public ConversionConfiguration loadConfig() {
+        return conversionService.getConversionConfiguration();
+    }
+
 
     /**
      * Get conversion page

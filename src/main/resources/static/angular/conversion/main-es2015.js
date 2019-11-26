@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
 /***/ "../../node_modules/raw-loader/index.js!./src/app/app.component.html":
-/*!*******************************************************************************************************************************************!*\
-  !*** /Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Spring/client/node_modules/raw-loader!./src/app/app.component.html ***!
-  \*******************************************************************************************************************************************/
+/*!*******************************************************************************************************************************!*\
+  !*** /Users/elenko/projects/GroupDocs.Conversion-for-Java-Spring/client/node_modules/raw-loader!./src/app/app.component.html ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -173,7 +173,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/pavelegorov/Documents/repos/GroupDocs.Conversion-for-Java-Spring/client/apps/conversion/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/elenko/projects/GroupDocs.Conversion-for-Java-Spring/client/apps/conversion/src/main.ts */"./src/main.ts");
 
 
 /***/ })

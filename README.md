@@ -128,12 +128,5 @@ Please have a look at the LICENSE.md for more details
 - [Document converter](https://github.com/groupdocs-Conversion/GroupDocs.Conversion-for-.NET-WebForms) with .NET WebForms 
 
 
-## Resources
-- **Website:** [www.groupdocs.com](http://www.groupdocs.com)
-- **Product Home:** [GroupDocs.Conversion for Java](https://products.groupdocs.com/conversion/java)
-- **Product API References:** [GroupDocs.Conversion for Java API](https://apireference.groupdocs.com)
-- **Download:** [Download GroupDocs.Conversion for Java](http://downloads.groupdocs.com/conversion/java)
-- **Documentation:** [GroupDocs.Conversion for Java Documentation](https://docs.groupdocs.com/dashboard.action)
-- **Free Support Forum:** [GroupDocs.Conversion for Java Free Support Forum](https://forum.groupdocs.com/c/conversion)
-- **Paid Support Helpdesk:** [GroupDocs.Conversion for Java Paid Support Helpdesk](https://helpdesk.groupdocs.com)
-- **Blog:** [GroupDocs.Conversion for Java Blog](https://blog.groupdocs.com/category/groupdocs-conversion-product-family)
+
+[Home](https://www.groupdocs.com/) | [Product Page](https://products.groupdocs.com/conversion/java) | [Documentation](https://docs.groupdocs.com/conversion/java/) | [Demos](https://products.groupdocs.app/conversion/family) | [API Reference](https://apireference.groupdocs.com/java/conversion) | [Examples](https://github.com/groupdocs-conversion/GroupDocs.conversion-for-Java/tree/master/Examples) | [Blog](https://blog.groupdocs.com/category/annotation/) | [Free Support](https://forum.groupdocs.com/c/conversion) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

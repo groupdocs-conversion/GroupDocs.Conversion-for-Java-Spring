@@ -3,9 +3,9 @@
 GroupDocs.Conversion for Java Spring UI Example
 ###### version 0.0.9
 
-[![Build Status](https://travis-ci.org/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Spring.svg?branch=master)](https://travis-ci.org/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring)
-[![Maintainability](https://api.codeclimate.com/v1/badges/6db148bfbdc7912b07e6/maintainability)](https://codeclimate.com/github/groupdocs-conversion/GroupDocs.Conversion-for-Java-Spring/maintainability)
 [![GitHub license](https://img.shields.io/github/license/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Spring.svg)](https://github.com/groupdocs-Conversion/GroupDocs.Conversion-for-Java-Spring/blob/master/LICENSE)
+
+:warning: **This repository has moved to https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-Java/tree/master/Demos/Spring**
 
 ## System Requirements
 - Java 8 (JDK 1.8)
